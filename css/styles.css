@@ -1,7 +1,33 @@
 body{
-    font-family:"Roboto", "Open Sans", "Lato", "Montserrat", "Noto Sans", "Ubuntu",  sans-serif;  
+    font-family:"Roboto", "Open Sans", "Lato", "Montserrat", "Noto Sans", "Ubuntu",  sans-serif; 
+    color: #2e2f42; 
+    size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
      
 }
+h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    color: #fff;  
+ }
+ h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;   
+}
+
+h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+
 ul{
     list-style: none;
     margin: 0;
@@ -28,6 +54,7 @@ nav{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
+    
 }
 
 .menu{
@@ -38,30 +65,23 @@ nav{
     gap: 40px;
 }
 
-address{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+.contacts:hover{
+    text-decoration: underline;
 }
+
+.contacts{
+    color: #2e2f42;
+    text-decoration: none;
+}
+
 .hero{
     background-color:#2e2f42;
-
 }
 
-h1{
-   font-weight: 700;
-   font-size: 56px;
-   line-height: 1.07143;
-   letter-spacing: 0.02em;
-   color: #fff;  
-}
 
 button{
     background: #4d5ae5;
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
@@ -74,24 +94,11 @@ button{
     padding: 16px 32px;
     width: 169px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-
 }
 
-
-
-.header-feature{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
 
 .text-feature{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    
     color: #434455;
 }
 
@@ -99,14 +106,7 @@ button{
     background:#f4f4fd; 
 }
 
-.headr-our-team{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11111;
-    letter-spacing: 0.02em;
-    text-align: center;
-     color: #2e2f42;
-}
+
 
 .member{
     display: flex;
@@ -125,32 +125,16 @@ button{
 
 }
 
-.mamber-team-name{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
+.header-feature{
+     line-height: 1.2;
 }
-
 .member-team-position{
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
 }
 
-.portfolio-header{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11111;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-}
+
 .card-content{
     display: flex;
     align-items: flex-start;
@@ -164,30 +148,15 @@ button{
     width: 360px;
     height: 120px;
 }
-.card-content>a{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-.card-content>p{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-color: #434455;
-}
+
+
 
 footer{
     background: #2e2f42;
 }
 
 .footer-text{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+   
     color: #f4f4fd;
 }
 .logo-studio-footer{
