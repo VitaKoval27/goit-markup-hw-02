@@ -1,5 +1,5 @@
 body{
-    font-family:"Roboto", sans-serif; 
+    font-family:"Roboto", sans-serif;
     color:#434455; 
     background-color: #FFFFFF;
     size: 16px;
@@ -34,7 +34,7 @@ ul{
    
 }
 
-
+/*header*/
 .logo-studio{
     
     color: #2e2f42;
@@ -54,7 +54,9 @@ ul{
 menu:focus{
     color: #404bbf;
 }
-
+.contacts{
+    font-style: normal;
+}
 .email{
     letter-spacing: 0.02em;
     color: #434455;
@@ -65,22 +67,46 @@ menu:focus{
     color:  #404bbf;
 }
 .email:focus{
-    color: #4d5ae5;
+    color: #404bbf;
 }
+
+/*first section*/
 .hero{
     background-color:#2e2f42;
 }
+.maim-header{
+    font-size: 56px;
+    line-height:1.07;
+    text-align: center;
 
 
-button{
+}
+
+.button{
+    font-family: "Roboto",sans-serif;
     background: #4d5ae5;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    cursor: pointer;
 
 }
 
+.button:hover{
+    background-color: #404bbf;
+
+}
+.button:focus{
+    background-color: #404BBF ;
+}
+
+
+/*second section*/
+.header-feature{
+    line-height: 1.2;
+    color: #2e2f42;
+}
 
 .text-feature{
     
@@ -88,46 +114,45 @@ button{
     letter-spacing: 0.02em;
 }
 
+/*third section*/
+
+
 .our-team{
     background:#f4f4fd; 
 }
-
-
-
+.header-our-team{
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
 .member{
-   
-    align-items: center;
+
    
     background: #fff;
 
-}
-
-.header-feature{
-     line-height: 1.2;
 }
 .member-team-position{
     line-height: 1.5;
     text-align: center;
     color: #434455;
+    letter-spacing: 0.02em;
 }
 
-
+.memer-team-name{
+    color: #2e2f42;
+}
 
    
 
-.header-our-team{
-    line-height: 1.11;
-    text-align: center;
-    text-transform: capitalize;
-}
-.member-team-position{
-   letter-spacing: 0.02em;
-}
 
+
+/*section 4*/
 .portfolio-header{
     text-align: center;
     line-height: 1.11;
     text-transform: capitalize;
+    color: #2e2f42;
 
 }
 .card-header{
@@ -143,8 +168,8 @@ button{
     letter-spacing: 0.02em;
     color: #434455;
 }
-
-footer{
+/*footer*/
+.footer{
     background: #2e2f42;
 }
 
@@ -155,7 +180,7 @@ footer{
 }
 
 .logo-text{
-    font-family:"Roleway";
+    font-family:"Raleway";
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17 ;
