@@ -1,12 +1,12 @@
-body{
-    font-family:"Roboto", sans-serif;
-    color:#434455; 
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455; 
     background-color: #FFFFFF;
-    size: 16px;
+    font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%;
-     
+    letter-spacing: 0.02em; 
 }
+
 h1{
     font-weight: 700;
     font-size: 56px;
@@ -51,7 +51,7 @@ ul{
     color:  #404bbf ;
 }
 
-menu:focus{
+.menu:focus{
     color: #404bbf;
 }
 .contacts{
@@ -74,7 +74,7 @@ menu:focus{
 .hero{
     background-color:#2e2f42;
 }
-.maim-header{
+.main-header{
     font-size: 56px;
     line-height:1.07;
     text-align: center;
@@ -139,8 +139,9 @@ menu:focus{
     letter-spacing: 0.02em;
 }
 
-.memer-team-name{
-    color: #2e2f42;
+.member-team-name{
+    color:#2e2f42;
+    text-align: center;
 }
 
    
@@ -180,7 +181,7 @@ menu:focus{
 }
 
 .logo-text{
-    font-family:"Raleway";
+    font-family:"Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17 ;
